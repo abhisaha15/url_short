@@ -1,5 +1,5 @@
 from flask import Flask,render_template,url_for,request,redirect,session,jsonify
-from datamodel import db,User,Url
+from api.datamodel import db,User,Url
 
 
 app = Flask(__name__)
